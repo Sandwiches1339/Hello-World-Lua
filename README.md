@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
   </head>
-  Hello World Lua
+  Hello World Lua \n
   Hello World Lua
   Hello World Lua
   Hello World Lua
