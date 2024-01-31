@@ -5,5 +5,5 @@
 local HelloWorldLua = "Hello World!"
 
 for i = 1,#HelloWorldLua,1 do
-  print(string.sub(HelloWorldLua, i, i))
+  print(string.sub(HelloWorldLua, 1, i))
 end
