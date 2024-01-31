@@ -6,7 +6,7 @@
 
   <body>
 
-    <p>Hello World Lua</p>
+    Hello World Lua
     
   </body>
   
