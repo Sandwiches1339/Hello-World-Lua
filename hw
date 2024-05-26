@@ -1,0 +1,17 @@
+--Hello World Lua,
+--Hello World Lua
+-- sandwiches's Hello World Lua, 2023-2024
+
+local HelloWorldLua = "Hello World!"
+
+
+function HW(HW)
+  game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(HW, "All")
+end
+
+for i = 1,#HelloWorldLua do
+  HW(string.sub(HelloWorldLua, 1, i))
+end
+for i = 1,#HelloWorldLua do
+  HW(string.sub(HelloWorldLua, i, #HelloWorldLua))
+end
