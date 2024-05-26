@@ -1,0 +1,10 @@
+function blacklistplayer(player:Player)
+	local name = player.Name
+	game:GetService("ReplicatedStorage").CustomiseBooth:FireServer("AddBlacklist", name)
+end
+
+for _,v in pairs(game.Players:GetPlayers()) do
+  if v ~= game.Players.LocalPlayer then
+    blacklistplayer(v)
+  end
+end
