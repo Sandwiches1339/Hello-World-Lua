@@ -9,9 +9,4 @@ function HW(HW)
   game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(HW, "All")
 end
 
-for i = 1,#HelloWorldLua do
-  HW(string.sub(HelloWorldLua, 1, i))
-end
-for i = 1,#HelloWorldLua do
-  HW(string.sub(HelloWorldLua, i, #HelloWorldLua))
-end
+HW(HelloWorldLua)
